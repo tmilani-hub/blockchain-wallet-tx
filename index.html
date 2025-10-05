@@ -2,6 +2,12 @@
 <html lang="en">
 	<head>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" Roboto />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -10,38 +16,42 @@
 		<link rel="stylesheet" href="style.css" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>ça va étre dur</title>
+		<title>Jen peux plus</title>
 	</head>
 	<body>
-		<section>
+		<!--
+		EDO=Enfant Direct d' Origin
+		(suivi d'un numéro + ( - ) + (1,2,3..) pour désigner l'enfant de l'enfant)
+		-->
+		<section id="origin">
 			<h1>Wallet Viewer</h1>
-			<p>
+			<p class="p1">
 				Entrez une adresse de Wallet pour visualiser l'ensemble des
 				transactions.
 			</p>
-			<div class="1">
+			<section class="EDO1">
 				<p>Address Ethereum</p>
-				<div class="2">
+				<div class="EDO1-1">
 					<input placeholder="0x.." />
 					<button>Voir le walle</button>
 				</div>
 				<p>
-					Astuce : essayez l’adresse de Vitalik :
+					Astuce : essayez l'adresse de Vitalik :
 					0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
 				</p>
-			</div>
-			<div class="5">
-				<div class="6">
+			</section>
+			<section class="EDO2">
+				<div class="EDO2-1">
 					<h2>Sold ETH</h2>
 					<p>0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045</p>
 					<h2>29.585487 ETH</h2>
 				</div>
-				<div class="7">
+				<div class="EDO2-2">
 					<h2>Transactions récentes</h2>
 					<table>
 						<tbody>
 							<tr>
-								<td>IN</td>
+								<td class="in">IN</td>
 								<td>0.0001 ETH</td>
 								<td>
 									<a
@@ -51,7 +61,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>OUT</td>
+								<td class="out">OUT</td>
 								<td>0.0001 ETH</td>
 								<td>
 									<a
@@ -61,7 +71,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>IN</td>
+								<td class="in">IN</td>
 								<td>0.5241 ETH</td>
 								<td>
 									<a
@@ -73,13 +83,13 @@
 						</tbody>
 					</table>
 				</div>
-			</div>
-			<div class="8">
+			</section>
+			<section class="EDO3">
 				<h2>Console</h2>
-				<div class="9">
+				<div class="EDO3-1">
 					<p>Chargement du wallet 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045</p>
 				</div>
-			</div>
+			</section>
 		</section>
 	</body>
 </html>
